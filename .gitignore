@@ -2,12 +2,7 @@
 data_util/face_tracking/3DMM/01_MorphableModel.mat
 data_util/face_tracking/3DMM/3DMM_info.npy
 
-!/deep_3drecon/BFM/.gitkeep
-deep_3drecon/BFM/Exp_Pca.bin
-deep_3drecon/BFM/01_MorphableModel.mat
-deep_3drecon/BFM/BFM_model_front.mat
-deep_3drecon/network/FaceReconModel.pb
-deep_3drecon/checkpoints/*
+src/gfpp/deep_3drecon/BFM/*
 
 .vscode
 ### Project ignore

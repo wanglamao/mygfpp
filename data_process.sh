@@ -1,6 +1,6 @@
 export CUDA_VISIBLE_DEVICES=0;
 export PYTHONPATH=./;
-VIDEO_ID=wanglamao6;
+VIDEO_ID=miaoge2;
 
 mkdir -p data/processed/videos/${VIDEO_ID};
 ffmpeg -i data/raw/videos/${VIDEO_ID}.mp4 -f wav -ar 16000 data/processed/videos/${VIDEO_ID}/aud.wav ;
